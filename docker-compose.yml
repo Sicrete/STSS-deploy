@@ -466,7 +466,7 @@ services:
     networks:
       - stss-net
 
-    grade_service:
+  grade_service:
     image: ghcr.io/sicrete/stss-grade:latest
     container_name: stss-grade
     expose:
